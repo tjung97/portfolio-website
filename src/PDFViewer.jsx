@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Document, Page, pdfjs  } from 'react-pdf';
 import pdf from './assets/ThummimJungResume.pdf';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
-const resumeLink = "https://raw.githubusercontent.com/tjung97/website/main/portfolio/src/assets/ThummimJungResume.pdf";
+const resumeLink = "https://raw.githubusercontent.com/tjung97/website/17c52a8aa80e00c1477fc503a451ea64533736f8/src/assets/ThummimJungResume.pdf";
 const PDFViewer = () => {
    const [width, setWidth] = useState(1200);
 

@@ -2,7 +2,7 @@
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://tjung97.github.io/website/",
+  "homepage": "https://tjung97.github.io/portfolio-website/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
